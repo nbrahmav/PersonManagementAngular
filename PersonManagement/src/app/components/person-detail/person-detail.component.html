@@ -1,0 +1,5 @@
+<div [ngClass]="setClasses()">
+    <input (change)="onToggle(person)" type="checkbox" name="" id=""/>
+     {{person.name}}
+     <button (click)="onDelete(person)" class="del">X</button>
+</div>
